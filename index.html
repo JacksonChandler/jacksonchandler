@@ -9,14 +9,14 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
         integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous">
-    </script>
+        </script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
     <title>Jackson Chandler</title>
-    <link rel="icon" href="assets/logo_icon.ico"/>
+    <link rel="icon" href="assets/logo_icon.ico" />
     <meta name="description" content="Mobile and Web Developer" />
     <meta name="author" content="Jackson Chandler" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -29,13 +29,201 @@
             <img src="assets/logo.png" width="30" height="30" width="30">
             Jackson Chandler
         </a>
-    </nav>  
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container">
         <div class="jumbotron">
-        
+            <div id="headline">
+                <h1>Hello!</h1>
+                <h3>My name is Jackson Chandler and I'm a mobile and web developer.</h3>
+            </div>
+            <div class="techline">
+                <h3>Some of my favorite technologies...</h3>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-2">
+                        <img src="assets/c_sharp.png" class="centerImage" />
+                    </div>
+                    <div class="col-md-2">
+                        <img src="assets/xamarin.png" class="centerImage" />
+                    </div>
+                    <div class="col-md-2">
+                        <img src="assets/swift.png" class="centerImage" />
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-2">
+                        <img src="assets/kotlin.png" class="centerImage" />
+                    </div>
+                    <div class="col-md-2">
+                        <img src="assets/react.png" class="centerImage" />
+                    </div>
+                    <div class="col-md-2">
+                        <img src="assets/git.png" class="centerImage" />
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2">
+                        <img src="assets/html.png" class="centerImage" />
+                    </div>
+                    <div class="col-md-2">
+                        <img src="assets/js.png" class="centerImage" />
+                    </div>
+                    <div class="col-md-2">
+                        <img src="assets/css.png" class="centerImage" />
+                    </div>
+                    <div class="col-md-2">
+                        <img src="assets/angular.png" class="centerImage" />
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+            <br>
+
+            <div class="experienceline">
+                <h1>Experience</h1>
+                <hr>
+                <br>
+                <h2>Hallmark Cards</h2>
+                <h4>Mobile Application Developer</h4>
+                <h5>Xamarin</h5>
+                <p>Developed a mobile application using C# and Xamarin targeting an Android devices used by Hallmark
+                    Gold Crown retailers that provide those retailers with access to sales
+                    information and data, daily goals, real-time goal progress, and the ability to update and calculate
+                    target and stretch goals. This along with other key performance
+                    indicators allows the retailers to have a better understanding of how their current sales are
+                    compared to their set goals and helps drive sales. Sales data was transferred
+                    from a vendor's api and store information from a ServiceNow api into our app via an Apigee gateway.
+                    The application was developed using git in Azure DevOps in the Agile/Scrum methodology.
+                </p>
+                <h5>API Development</h5>
+                <p>Developed new functionality in automation services to create and update users and contacts from data
+                    in Microsoft Active Directory
+                    and load them into Salesforce as well as a process to deactivate a user when they are removed from
+                    Active Directory.
+                    Additionally developed new functionality in an ASP.NET webpage to move images from an existing
+                    database to a new MongoDB database
+                    and then created a process for automatic reporting of the transfers and the associated meta data.
+                </p>
+                <h5>Salesforce</h5>
+                <p>Created a process to limit the duplication of accounts being loaded from SAP to Salesforce and
+                    automating 10+ hours a week of manual checking and removal of duplicates.
+                    Developed custom apex code controller for a Visualforce page that dynamically pulled data from
+                    business created fields and provided easier to read and understand error messages for both future
+                    admins and users. Also created process to allow business users to easily update text on a
+                    visualforce page with updating code.</p>
+                <h4>Technologies Worked With</h4>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Xamarin</td>
+                            <td>C#/.NET</td>
+                            <td>ASP.NET</td>
+                            <td>Azure</td>
+                            <td>Azure DevOps</td>
+                        </tr>
+                        <tr>
+                            <td>Javascript</td>
+                            <td>Apex</td>
+                            <td>VisualForce</td>
+                            <td>Salesforce</td>
+                            <td>SAP</td>
+                        </tr>
+                        <tr>
+                            <td>SQL</td>
+                            <td>MongoDB</td>
+                            <td>Git</td>
+                            <td>Apigee</td>
+                            <td>Agile</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br>
+                <h2>Hallmark Cards</h2>
+                <h4>Software Engineer Intern</h4>
+                <p>Developed a native Windows application with C# and WPF that aggregated product data from SAP,
+                    a mainframe system, and a SQL server using WCF service calls. The application would make
+                    calculations based on data and user input, validate and cleanse data, and then take those
+                    calculations and update the respective systems to keep the processes in sync between the business,
+                    manufacturing, and distribution.
+                </p>
+                <h4>Technologies Worked With</h4>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <br>
+                <h2>Missouri Employers Mutual</h2>
+                <h4>iOS Developer Intern</h4>
+
+                <p>
+                </p>
+                <h4>Technologies Worked With</h4>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <br>
+                <h2>Lexmark Enterprise Software</h2>
+                <h4>Salesforce Developer Intern</h4>
+
+                <p>
+                </p>
+                <h4>Technologies Worked With</h4>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
-  
+
 </body>
 
 </html>
