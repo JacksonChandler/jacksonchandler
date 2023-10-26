@@ -10,3 +10,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  margin: 0;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Chakra Petch", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1d1d1d;
+}
+body::before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+    linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 0.06),
+      rgba(0, 255, 0, 0.02),
+      rgba(0, 0, 255, 0.06)
+    );
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%, 0%;
+  background-position-y: 0%, 0%;
+  background-repeat: repeat, repeat;
+  background-attachment: scroll, scroll;
+  background-image: linear-gradient(
+      rgba(18, 16, 16, 0) 50%,
+      rgba(0, 0, 0, 0.25) 50%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 0.06),
+      rgba(0, 255, 0, 0.02),
+      rgba(0, 0, 255, 0.06)
+    );
+  background-size: auto, auto;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Chakra Petch";
+}
+
+.slide_right:hover {
+  transform: translateX(5%);
+  transition-timing-function: ease-out;
+}
+.big {
+  position: absolute;
+  z-index: 1;
+  transition: transform 1s;
+}
+.small {
+  position: absolute;
+  z-index: 0;
+}
+
+.grid {
+  position: absolute;
+}
+.centerThings {
+  /*   display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+  margin: 50px;
+}
+
+nav,
+header {
+  background-color: green;
+  margin-bottom: 2%;
+  font-size: 1vw;
+  padding: 0.5%;
+}
