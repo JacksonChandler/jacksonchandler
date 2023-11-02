@@ -11,6 +11,9 @@ h6 {
 #headerName {
   font-weight: bold;
 }
+body {
+  padding-top: 10vh;
+}
 #headline,
 .techline,
 .findline {
@@ -70,4 +73,8 @@ h6 {
 img {
   margin: 10px;
   max-width: 40vw;
+}
+
+table {
+  max-width: 90vw;
 }
