@@ -1,0 +1,25 @@
+{
+  "grammarly.selectors": [
+    {
+      "language": "html",
+      "scheme": "file",
+      "pattern": "index.html"
+    }
+  ],
+  "cSpell.words": [
+    "Bitrise",
+    "CICD",
+    "Clevertap",
+    "Dialogflow",
+    "Formik",
+    "Guidewire",
+    "Hackathon",
+    "Kingland",
+    "Montemagno's",
+    "Namecheap",
+    "powerplatform",
+    "Riverpod",
+    "Viagio",
+    "Wireframed"
+  ]
+}
